@@ -12,7 +12,7 @@ export interface SignInfo {
 
 export const SIGN_DATABASE: Record<string, SignInfo> = {
   "a": {
-    videoSrc: "/archive (3)/dataset/SL/a/01610.mp4",
+    videoSrc: "#/archive (3)/dataset/SL/a/01610.mp4",
     description: "Sign for a. This sign is commonly used in American Sign Language (ASL) to express the concept of 'a'.",
     handshape: "Various hand shapes",
     movement: "Fluid motion",
@@ -22015,3 +22015,4 @@ export const SIGN_DATABASE: Record<string, SignInfo> = {
 };
 
 export const POPULAR_SIGNS = Object.keys(SIGN_DATABASE);
+
