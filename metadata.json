@@ -1,0 +1,7 @@
+{
+  "name": "SignMaster ASL Dictionary",
+  "description": "A comprehensive American Sign Language (ASL) dictionary that provides detailed visual and text-based instructions for signs, powered by Gemini AI for dynamic descriptions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

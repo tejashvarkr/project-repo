@@ -1,0 +1,53 @@
+
+export interface SignInfo {
+  youtubeId?: string;
+  youtubeUrl?: string;
+  videoSrc?: string;
+  description: string;
+  handshape: string;
+  movement: string;
+  location: string;
+  tips: string[];
+}
+
+export const SIGN_DATABASE: Record<string, SignInfo> = {
+  "afternoon": {
+  youtubeId: "z4TGBHXWqdk",
+  description: "The sign for afternoon is typically made with the dominant hand flat, palm down, pointing forward. The arm is resting on the back of the non-dominant hand, which is held horizontally across the chest.",
+  handshape: "Flat palm (Open B-hand)",
+  movement: "The dominant arm rests on the horizontal non-dominant arm and tilts slightly downward.",
+  location: "In front of the torso",
+  tips: [
+    "Think of the sun moving down the sky.",
+    "Keep your non-dominant arm steady."
+  ]
+},
+ " about ": {
+    videoSrc: "/Videos/about.mp4",   // 👈 local video
+    description:
+      "Use your dominant index finger to circle around your non-dominant 'O' or 'flattened-O' hand.",
+    handshape: "Index finger and O-hand",
+    movement: "Circular motion",
+    location: "Chest height",
+    tips: [
+      "Don't make the circle too wide.",
+      "Keep the movement fluid."
+    ]
+  },
+
+  "again": {
+    youtubeId: "Wt3pnIxzdmM",
+    description: "Your dominant hand moves in an arc and lands into the palm of your non-dominant hand.",
+    handshape: "Bent flat hand",
+    movement: "Arching motion",
+    location: "Center of chest",
+    tips: ["Ensure the palm of the non-dominant hand is facing up.", "The arc should be quick."]
+  }
+  // Add more words here manually as needed
+};
+
+export const POPULAR_SIGNS = Object.keys(SIGN_DATABASE);
+
+export const CATEGORIES = [
+  "Alphabet", "Basics", "Food", "Time", "Family", "Emotions"
+];
