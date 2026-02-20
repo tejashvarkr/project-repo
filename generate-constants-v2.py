@@ -19,7 +19,7 @@ def generate_entry(word):
         if mp4_files:
             # Use the first video file, reference from /archive context
             video_name = mp4_files[0]
-            video_src = f"/archive (3)/dataset/SL/{word}/{video_name}"
+            video_src = f"#/archive (3)/dataset/SL/{word}/{video_name}"
     except:
         pass
     
@@ -82,3 +82,4 @@ print(f"Output saved to: {output_path}")
 # Count how many have videos
 video_count = sum(1 for word in words if any(f.endswith('.mp4') for f in os.listdir(os.path.join(sl_path, word))))
 print(f"Total words with videos: {video_count}")
+
