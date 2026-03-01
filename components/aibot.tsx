@@ -14,7 +14,7 @@
 // } from 'lucide-react';
 
 // // --- Gemini API Configuration ---
-// const apiKey = "AIzaSyCtzVRbYjxszPruLyNgNETXy1I0ekDGwok";
+// const apiKey = "";
 // const GEMINI_MODEL = "gemini-2.5-flash-preview-09-2025";
 
 // // Unified Persona for the Incluno Search & Help Core
